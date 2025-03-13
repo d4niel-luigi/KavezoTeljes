@@ -3,7 +3,7 @@ import { KoncertekService } from './koncertek.service';
 import { CreateKoncertekDto } from './dto/create-koncertek.dto';
 import { UpdateKoncertekDto } from './dto/update-koncertek.dto';
 
-@Controller('koncertek')
+@Controller('api/koncertek')
 export class KoncertekController {
   constructor(private readonly koncertekService: KoncertekService) {}
 

@@ -12,7 +12,7 @@ export class KoncertekService {
       throw new Error('The concert date cannot be in the past')
     }
       return this.prisma.koncert.create({
-        data:createKoncertekDto
+        data: createKoncertekDto
       })
   }
 
